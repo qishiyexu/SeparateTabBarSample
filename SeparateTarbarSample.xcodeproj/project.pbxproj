@@ -13,6 +13,10 @@
 		F6489E351A19D7D2008152E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6489E341A19D7D2008152E7 /* Images.xcassets */; };
 		F6489E381A19D7D2008152E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6489E361A19D7D2008152E7 /* LaunchScreen.xib */; };
 		F6489E441A19D7D2008152E7 /* SeparateTarbarSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6489E431A19D7D2008152E7 /* SeparateTarbarSampleTests.swift */; };
+		F6489E4E1A19DE58008152E7 /* Sport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6489E4D1A19DE58008152E7 /* Sport.storyboard */; };
+		F6489E501A19E3B4008152E7 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6489E4F1A19E3B4008152E7 /* PlaceholderViewController.swift */; };
+		F6489E521A1A43C2008152E7 /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6489E511A1A43C2008152E7 /* SportViewController.swift */; };
+		F6489E561A1A4A06008152E7 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6489E551A1A4A06008152E7 /* Music.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		F6489E3D1A19D7D2008152E7 /* SeparateTarbarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeparateTarbarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6489E421A19D7D2008152E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6489E431A19D7D2008152E7 /* SeparateTarbarSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateTarbarSampleTests.swift; sourceTree = "<group>"; };
+		F6489E4D1A19DE58008152E7 /* Sport.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sport.storyboard; sourceTree = "<group>"; };
+		F6489E4F1A19E3B4008152E7 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		F6489E511A1A43C2008152E7 /* SportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportViewController.swift; sourceTree = "<group>"; };
+		F6489E551A1A4A06008152E7 /* Music.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				F6489E341A19D7D2008152E7 /* Images.xcassets */,
 				F6489E361A19D7D2008152E7 /* LaunchScreen.xib */,
 				F6489E2B1A19D7D2008152E7 /* Supporting Files */,
+				F6489E4D1A19DE58008152E7 /* Sport.storyboard */,
+				F6489E4F1A19E3B4008152E7 /* PlaceholderViewController.swift */,
+				F6489E511A1A43C2008152E7 /* SportViewController.swift */,
+				F6489E551A1A4A06008152E7 /* Music.storyboard */,
 			);
 			path = SeparateTarbarSample;
 			sourceTree = "<group>";
@@ -193,8 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6489E331A19D7D2008152E7 /* Main.storyboard in Resources */,
+				F6489E561A1A4A06008152E7 /* Music.storyboard in Resources */,
 				F6489E381A19D7D2008152E7 /* LaunchScreen.xib in Resources */,
 				F6489E351A19D7D2008152E7 /* Images.xcassets in Resources */,
+				F6489E4E1A19DE58008152E7 /* Sport.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6489E501A19E3B4008152E7 /* PlaceholderViewController.swift in Sources */,
 				F6489E301A19D7D2008152E7 /* ViewController.swift in Sources */,
 				F6489E2E1A19D7D2008152E7 /* AppDelegate.swift in Sources */,
+				F6489E521A1A43C2008152E7 /* SportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

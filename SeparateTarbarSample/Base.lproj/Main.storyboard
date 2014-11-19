@@ -1,25 +1,117 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qFY-mM-uSN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--sport-->
+        <scene sceneID="UzA-ZB-p8g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <navigationController id="XcJ-or-1tp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="sport" id="e0r-Rx-Y9r"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W5J-v4-LVR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="UoX-hS-Ehe" kind="relationship" relationship="rootViewController" id="pjh-zy-c73"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2X-h0-PDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="908" y="1020"/>
+        </scene>
+        <!--sport-->
+        <scene sceneID="HbP-xg-xn7">
+            <objects>
+                <viewController restorationIdentifier="Sport" id="UoX-hS-Ehe" customClass="PlaceholderViewController" customModule="SeparateTarbarSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xVY-I6-gC6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cmr-Bi-UZW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mRJ-tG-lkI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sport placeholder view" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dd-SX-TwU">
+                                <rect key="frame" x="131" y="297" width="174" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="sport" id="BW5-1N-Qnn"/>
+                    <navigationItem key="navigationItem" id="xK9-EG-1uC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qRM-GI-KcM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1654" y="1020"/>
+        </scene>
+        <!--music-->
+        <scene sceneID="PgZ-Zf-7DF">
+            <objects>
+                <navigationController id="uOT-CI-XLi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="music" id="UWg-RC-HMd"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GaD-fH-ff1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RM2-EX-dAD" kind="relationship" relationship="rootViewController" id="fO1-Hi-Knb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pnv-p3-zOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908" y="222"/>
+        </scene>
+        <!--music-->
+        <scene sceneID="XBe-i4-d7v">
+            <objects>
+                <viewController restorationIdentifier="Music" id="RM2-EX-dAD" customClass="PlaceholderViewController" customModule="SeparateTarbarSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qAs-9o-sQ2"/>
+                        <viewControllerLayoutGuide type="bottom" id="rQR-Eq-0jd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HpA-td-drz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="music placeholder view" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIy-qJ-QJc">
+                                <rect key="frame" x="149" y="260" width="180" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="music" id="RPA-L8-s6e"/>
+                    <navigationItem key="navigationItem" id="QTb-BJ-Z0M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uq0-bt-ZcQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1654" y="222"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zSF-Ob-kde">
+            <objects>
+                <tabBarController id="qFY-mM-uSN" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="0ca-Ea-i9T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uOT-CI-XLi" kind="relationship" relationship="viewControllers" id="Qlt-dC-mtz"/>
+                        <segue destination="XcJ-or-1tp" kind="relationship" relationship="viewControllers" id="zLe-6z-09R"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="APc-Ik-3Jf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="614"/>
         </scene>
     </scenes>
 </document>
